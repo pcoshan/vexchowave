@@ -1,9 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(//db.onlinewebfonts.com/c/32026f24f42d61d41b540609a4cd90a5?family=Marola);
+@font-face {font-family: "Marola"; src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot"); src: url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.woff") format("woff"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/32026f24f42d61d41b540609a4cd90a5.svg#Marola") format("svg"); }
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1{
+  font-family: 'Marola';
 }
 
 a {
