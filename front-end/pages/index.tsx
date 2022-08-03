@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <div className="flex flex-col w-full items-center justify-center pt-32">
         <h1 className=" text-8xl animate-pulse px-4 ">VEXCHOWAVE</h1>
         <label
-          className="border-2 border-wisteria rounded-xl mt-10 text-center py-4 px-6 w-1/3 mx-auto cursor-pointer"
+          className="border-2 border-wisteria rounded-xl mt-20 text-center py-4 px-6 w-1/3 mx-auto cursor-pointer"
           onChange={handleFile}
           htmlFor="trackinput"
         >
