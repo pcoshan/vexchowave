@@ -2,9 +2,12 @@ import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-screen h-full w-full  relative bg-gradient-to-r from-studio via-purpures to-amethyst">
-      <div className="flex flex-row w-full justify-center pt-10">
-        <h1 className=" text-8xl animate-pulse px-4 text-white ">VEXCHOWAVE</h1>
+    <div className="min-h-screen h-full w-full relative bg-gradient-to-r from-studio via-purpures to-amethyst overflow-hidden">
+      <div className="flex flex-col w-full items-center justify-center pt-32">
+        <h1 className=" text-8xl animate-pulse px-4 ">VEXCHOWAVE</h1>
+        <div className="border-2 border-wisteria rounded-xl mt-10 text-center py-4 px-6 w-1/3 mx-auto cursor-pointer">
+          <p className="text-white lofi-font ">Upload your track here</p>
+        </div>
       </div>
       <div className="">
         <img

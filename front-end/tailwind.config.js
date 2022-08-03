@@ -5,14 +5,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'studio' : "#674AB3",
-      'purpures': "#A348A6",
-      'amethyst': "#A063C5",
-      'medpurple': "#9174D8",
-      'wisteria': "#CEA2D7",
-      'lcb' : "#66b9c1"
-    },
+    extend:{
+      colors: {
+        'studio' : "#674AB3",
+        'purpures': "#A348A6",
+        'amethyst': "#A063C5",
+        'medpurple': "#9174D8",
+        'wisteria': "#CEA2D7",
+        'lcb' : "#66b9c1"
+      },
+    }
   },
   plugins: [],
 }
