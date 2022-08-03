@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactGiphySearchbox from 'react-giphy-searchbox';
 
 export default function GifSelect() {
   return (
